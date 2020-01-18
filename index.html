@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Vinícius N. Brasil">
+        <meta name="description" content="Cadastro de Usuários">
+        <link rel="stylesheet" href="estilo/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+            </header>
+            <nav class="menu">
+                <ul class="lista">
+                    <a href="index.html"><li>Cadastro</li></a>
+                    <a href="consulta.html"><li>Consulta</li></a>
+                </ul>
+            </nav>
+            <section class="dados">
+                <form method="post" action="processa.php">
+                    <button type="submit" value="Salvar" class="btn">Salvar</button>
+                    <button type="reset" value="Refazer" class="btn">Refazer</button> 
+                    <br>
+                    <p>Nome</p>
+                    <input type="text" name="nome" placeholder="Nome Completo" class="entradas" required autofocus><br>
+                    <p>E-mail</p>
+                    <input type="email" name="email" placeholder="E-mail válido" class="entradas" required><br>
+                    <p>Profissão</p>
+                    <input type="text" name="profissao" placeholder="Sua Profissão" class="entradas" required>
+                </form>
+            </section>
+            <footer>
+                
+            </footer>
+        </div>
+    </body>
+</html>
